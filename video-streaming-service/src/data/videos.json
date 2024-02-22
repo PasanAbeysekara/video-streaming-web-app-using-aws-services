@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "The TRUTH About Failing",
+        "date": "2022-07-14",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/The%20TRUTH%20About%20Failing.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/The%20TRUTH%20About%20Failing.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "That's Where You Find Yourself",
+        "date": "2022-08-05",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/That's%20Where%20You%20Find%20Yourself.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/That's%20Where%20You%20Find%20Yourself.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Richard Ramirez Maury Show August 20 1991",
+        "date": "2022-09-10",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/Richard%20Ramirez%20Maury%20Show%20August%2020%201991.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/Richard%20Ramirez%20Maury%20Show%20August%2020%201991.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "how to flirt with women",
+        "date": "2022-07-14",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/how%20to%20flirt%20with%20women.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/how%20to%20flirt%20with%20women.mp4"
+    },
+    {
+        "id": 5,
+        "name": "Before You Chase Winning, Watch This",
+        "date": "2022-08-05",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/Before%20You%20Chase%20Winning,%20Watch%20This.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/Before%20You%20Chase%20Winning,%20Watch%20This.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Shawn Mendes guitarcover",
+        "date": "2022-09-10",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/Shawn%20Mendes%20guitarcover.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/Shawn%20Mendes%20guitarcover.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Relive an unbelievable final two overs  Australia v Sri Lanka  T20I Series",
+        "date": "2022-07-14",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/Relive%20an%20unbelievable%20final%20two%20overs%20%20Australia%20v%20Sri%20Lanka%20%20T20I%20Series.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/Relive%20an%20unbelievable%20final%20two%20overs%20%20Australia%20v%20Sri%20Lanka%20%20T20I%20Series.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "BEST UFC MOMENTS",
+        "date": "2022-08-05",
+        "views": 0,
+        "thumbnailUrl": "https://du8g3gb97v8rn.cloudfront.net/BEST%20UFC%20MOMENTS.jpg",
+        "videoUrl": "https://du8g3gb97v8rn.cloudfront.net/BEST%20UFC%20MOMENTS.mp4",
+        "likes": 1500,
+        "comments": [
+            { "id": 1, "text": "This video is amazing!", "author": "User1" },
+            { "id": 2, "text": "Thanks for sharing!", "author": "User2" }
+        ]
+    }
+]
