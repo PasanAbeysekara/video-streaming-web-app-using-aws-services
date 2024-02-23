@@ -14,6 +14,7 @@ Describe the overall architecture of the application, including how each AWS ser
 - **AWS Lambda**: Handles video processing and integration logic.
 - **Amazon API Gateway**: Provides RESTful APIs for uploading and managing videos.
 - **Amazon DynamoDB**: Stores metadata about videos, users, and viewing statistics.
+- **Amazon Amplify**: Deploy the appplication.
 
 ![image](https://github.com/PasanAbeysekara/video-streaming-web-app-using-aws-services/assets/69195287/963dd89f-2657-4987-bf63-004fd8b4d90a)
 
