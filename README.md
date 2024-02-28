@@ -1,5 +1,24 @@
+<p align="center">
+  <h1 align="center">Video Streaming Web Application Using AWS Services
+</h1>
+     <p align="center">
+   AR-Visionary Explora is a revolutionary mobile application designed to enhance the furniture e-commerce experience through the integration of augmented reality (AR) technology. This Flutter-based app empowers users to visualize and assess furniture items in their living spaces before making a purchase, revolutionizing the traditional furniture buying process.
+  </p>
+</p>
+<div align="center">
 
-# Video Streaming Web Application Using AWS Services
+  ![React.js Badge](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+  ![Node.js Badge](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+  ![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+  ![AWS Lambda Badge](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+  ![AWS API Gateway Badge](https://img.shields.io/badge/AWS_API_Gateway-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+  ![AWS S3 Badge](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+  ![AWS CloudFront Badge](https://img.shields.io/badge/AWS_CloudFront-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+  ![AWS Amplify Badge](https://img.shields.io/badge/AWS_Amplify-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+</div>
+
+
+
 
 ## Overview
 
