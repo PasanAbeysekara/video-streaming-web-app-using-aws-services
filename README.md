@@ -2,8 +2,7 @@
   <h1 align="center">Video Streaming Web Application Using AWS Services
 </h1>
      <p align="center">
-   AR-Visionary Explora is a revolutionary mobile application designed to enhance the furniture e-commerce experience through the integration of augmented reality (AR) technology. This Flutter-based app empowers users to visualize and assess furniture items in their living spaces before making a purchase, revolutionizing the traditional furniture buying process.
-  </p>
+This project is a scalable video streaming web application built on AWS. It allows users to upload, store, process, and stream video content efficiently. Utilizing a serverless architecture, the application is designed to scale automatically with demand, ensuring a smooth streaming experience for a large number of users.  </p>
 </p>
 <div align="center">
 
@@ -16,13 +15,6 @@
   ![AWS CloudFront Badge](https://img.shields.io/badge/AWS_CloudFront-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
   ![AWS Amplify Badge](https://img.shields.io/badge/AWS_Amplify-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 </div>
-
-
-
-
-## Overview
-
-This project is a scalable video streaming web application built on AWS. It allows users to upload, store, process, and stream video content efficiently. Utilizing a serverless architecture, the application is designed to scale automatically with demand, ensuring a smooth streaming experience for a large number of users.
 
 ## Architecture
 
