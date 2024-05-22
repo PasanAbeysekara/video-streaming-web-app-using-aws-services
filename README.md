@@ -8,7 +8,6 @@ This is a video streaming web application built using AWS. It allows users to up
 
   ![React.js Badge](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white)
   ![Node.js Badge](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-  ![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
   ![AWS Lambda Badge](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
   ![AWS API Gateway Badge](https://img.shields.io/badge/AWS_API_Gateway-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
   ![AWS S3 Badge](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
@@ -27,7 +26,7 @@ This is a video streaming web application built using AWS. It allows users to up
 - **Amazon Amplify**: Simplifies app deployment.
 
 <p align="center">
-  <img src="https://github.com/PasanAbeysekara/video-streaming-web-app-using-aws-services/assets/69195287/0995ed96-e26e-406a-997a-b334f895c630" />
+  <img src="https://github.com/PasanAbeysekara/video-streaming-web-app-using-aws-services/assets/69195287/ce11875f-933d-4f8b-a71c-d0feba739a72" />
 </p>
 
 
