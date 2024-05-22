@@ -1,0 +1,95 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  VideoBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: 'video-streaming-bucket-123456789012'
+
+  VideoProcessingFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: handler.lambda_handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Code:
+        S3Bucket: video-streaming-code-bucket
+        S3Key: lambda/handler.zip
+      Runtime: python3.8
+      Environment:
+        Variables:
+          PIPELINE_ID: '1502033439140-abcde1'
+          PRESET_ID: '1351620000001-000061'
+      Events:
+        S3Event:
+          Type: S3
+          Properties:
+            Bucket: !Ref VideoBucket
+            Events: s3:ObjectCreated:*
+
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: S3Access
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:GetObject
+                  - s3:DeleteObject
+                Resource: !Sub 'arn:aws:s3:::video-streaming-bucket-123456789012/*'
+        - PolicyName: TranscoderAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - elastictranscoder:*
+                Resource: "*"
+
+  VideoApi:
+    Type: AWS::ApiGateway::RestApi
+    Properties:
+      Name: video-streaming-api
+
+  VideoApiResource:
+    Type: AWS::ApiGateway::Resource
+    Properties:
+      ParentId: !GetAtt VideoApi.RootResourceId
+      PathPart: videos
+      RestApiId: !Ref VideoApi
+
+  VideoApiMethod:
+    Type: AWS::ApiGateway::Method
+    Properties:
+      AuthorizationType: NONE
+      HttpMethod: POST
+      ResourceId: !Ref VideoApiResource
+      RestApiId: !Ref VideoApi
+      Integration:
+        IntegrationHttpMethod: POST
+        Type: AWS_PROXY
+        Uri: !Sub
+          - arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${VideoProcessingFunction.Arn}/invocations
+          - Region: !Ref 'AWS::Region'
+            LambdaArn: !GetAtt VideoProcessingFunction.Arn
+
+  LambdaApiGatewayPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !GetAtt VideoProcessingFunction.Arn
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub
+        - arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${VideoApi}/*
+        - Region: !Ref 'AWS::Region'
+          AccountId: !Ref 'AWS::AccountId'
+          VideoApi: !Ref VideoApi
