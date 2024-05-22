@@ -26,7 +26,10 @@ This is a video streaming web application built using AWS. It allows users to up
 - **Amazon DynamoDB**: Keeps track of video metadata and user stats.
 - **Amazon Amplify**: Simplifies app deployment.
 
-![image](https://github.com/PasanAbeysekara/video-streaming-web-app-using-aws-services/assets/69195287/963dd89f-2657-4987-bf63-004fd8b4d90a)
+<p align="center">
+  <img src="https://github.com/PasanAbeysekara/video-streaming-web-app-using-aws-services/assets/69195287/0995ed96-e26e-406a-997a-b334f895c630" />
+</p>
+
 
 ## Features
 
